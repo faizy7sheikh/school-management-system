@@ -1,6 +1,7 @@
 <?php
 include('header.php');
 include('admin/connection.php');
+// database connection
 ?>
     <div class="main">
     <h1>Student Information</h1>
