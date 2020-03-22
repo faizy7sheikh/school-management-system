@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    background: coral;
+}
+.main{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    background: black;
+    margin: auto;
+    margin-top: 12px;
+    border-bottom: 2px solid blue;
+}
+.container h1{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 12px;
+}
+.admin{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background: #333;
+    padding-bottom: 30px;
+}
+table{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    line-height: 40px;
+    text-align: left;
+
+}td{
+    padding-left: 9px;
+}
+a{
+    color: white;
+    width: 80px;
+}
+#btn input{
+    margin-left: 90px;
+    padding: 6px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+#btn input:hover{
+    background: black;
+    color: white;
+    border-bottom: 1px solid coral;
+}

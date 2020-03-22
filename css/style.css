@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: coral;
+}
+.container{
+    width: 100%;
+    margin: 5px;
+}
+.header{
+    width: 80%;
+    border-bottom: 1px solid pink;
+    background: black;
+    margin: auto;
+    height: 55px;
+
+}
+.header h1{
+    color: white;
+    line-height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.main{
+    width: 60%;
+    margin: auto;
+    background:red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main h1{
+    width:40%;
+    margin: auto;
+    margin-top: 12px;
+    padding-top: 12px;
+    text-decoration: underline;
+
+}
+a{
+    color: white;
+    float: right;
+    margin-right: 22px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif,serif;
+    font-size: 18px;
+    font-style: bold;
+}
+a:hover{
+    background: black;
+    border-bottom: 2px solid coral;
+}
+table{
+    margin: auto;
+    border: 2px;
+    border:2px;
+    width:30%;
+    padding-bottom: 30px;
+}
+td{
+    color:white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#btn{
+    margin: auto;
+    padding-left: 82px;
+}
+#sbbtn{
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#sbbtn:hover{
+    background: lightskyblue;
+    border-radius: 2px solid coral;
+}
+.log_main{
+    background: navy;
+    width: 60%;
+    margin: auto;
+    padding: 12px;
+    margin-top: 22px;
+    border: 2px solid black;
+}
+.log_main h1{
+    width:30%;
+    margin: auto;
+    padding-left: 122px;
+    margin-top: 30px;
+}
+.log{
+    margin-top: 25px;
+}
+#lbtn{
+    padding: 8px;
+    margin-top: 24px;
+    margin-left: 85px;
+}
+#lbtn:hover{
+    background: powderblue;
+    width:auto;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,serif;
+}
+#logo{
+    color:white;
+    font-weight: bold;
+    background: black;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.t2{
+    background: cornflowerblue;
+    width: 40%;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.t2 td{
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#email{
+    text-transform: none;
+}
